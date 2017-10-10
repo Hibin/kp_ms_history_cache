@@ -1,0 +1,17 @@
+apps:
+  - script      : app.js
+    name        : KP-History-Worker
+    watch       : true
+    instances   : 4
+    exec_mode   : cluster
+    env         :
+        NODE_ENV    : development
+    env_production:
+        NODE_ENV    : production
+
+#  - script : worker.js
+#    watch  : true
+#    env    :
+#      NODE_ENV: development
+#    env_production:
+#      NODE_ENV: production

@@ -1,0 +1,15 @@
+# This server
+listen:
+    - host  : 127.0.0.1
+      port  : 7777
+
+# Peers list to connect to
+peers:
+    - host  : 127.0.0.1
+      port  : 7778
+
+    - host  : 127.0.0.1
+      port  : 7779
+
+    - host  : 127.0.0.1
+      port  : 7780
